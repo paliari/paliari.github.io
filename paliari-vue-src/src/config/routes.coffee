@@ -51,4 +51,14 @@ module.exports = [
       component: V 'components/Modal'
       meta: title: 'Modal'
     ]
+  ,
+    name: 'directives'
+    path: '/directives'
+    component: V 'directives/Home'
+    children: [
+      name: 'deep-key'
+      path: 'deep-key'
+      component: V 'directives/DeepKey'
+      meta: title: 'Deep Key'
+    ]
 ]

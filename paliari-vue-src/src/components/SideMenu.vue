@@ -30,6 +30,9 @@ div
               router-link.pure-menu-link.ellipsis(to='/components/modal') Modal
         li.pure-menu-item
           a.pure-menu-link(href='#directives') Directives
+          ul.sublist
+            li
+              router-link.pure-menu-link.ellipsis(to='/directives/deep-key') Deep Key
         li.pure-menu-item
           a.pure-menu-link(href='#filters') Filters
         li.pure-menu-item
