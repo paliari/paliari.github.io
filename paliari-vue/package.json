@@ -7,7 +7,7 @@
     "dev": "vwp dev",
     "build": "vwp build",
     "dist": "vwp dist",
-    "pro": "NODE_ENV=production vwp dist && rm -rf pro && cp -r dist pro",
+    "pro": "NODE_ENV=production rm -rf dist && vwp dist && rm -rf pro && cp -r dist pro",
     "release": "yarn pro",
     "preinstall": "yarn global add vwp"
   },
