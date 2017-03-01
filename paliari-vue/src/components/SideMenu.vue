@@ -56,6 +56,8 @@ div
               router-link.pure-menu-link.ellipsis(to='/filters/t-model') T Model
             li
               router-link.pure-menu-link.ellipsis(to='/filters/truncate') Truncate
+            li
+              router-link.pure-menu-link.ellipsis(to='/filters/masks') Masks
         li.pure-menu-item
           router-link.pure-menu-link.ellipsis(to='/utils') Utils
           ul.sublist

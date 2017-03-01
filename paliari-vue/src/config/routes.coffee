@@ -115,6 +115,11 @@ module.exports = [
       path: 'truncate'
       component: V 'filters/Truncate'
       meta: title: 'Truncate'
+    ,
+      name: 'masks'
+      path: 'masks'
+      component: V 'filters/Masks'
+      meta: title: 'Masks'
     ]
   ,
     name: 'utils'
