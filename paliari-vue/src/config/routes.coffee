@@ -116,4 +116,15 @@ module.exports = [
       component: V 'filters/Truncate'
       meta: title: 'Truncate'
     ]
+  ,
+    name: 'utils'
+    path: '/utils'
+    component: V 'utils/Home'
+    children: [
+      name: 'deep-clone'
+      path: 'deep-clone'
+      component: V 'utils/DeepClone'
+      meta: title: 'Deep Clone'
+    ]
+
 ]

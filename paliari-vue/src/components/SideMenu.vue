@@ -57,7 +57,10 @@ div
             li
               router-link.pure-menu-link.ellipsis(to='/filters/truncate') Truncate
         li.pure-menu-item
-          a.pure-menu-link(href='#utils') Utils
+          router-link.pure-menu-link.ellipsis(to='/utils') Utils
+          ul.sublist
+            li
+              router-link.pure-menu-link.ellipsis(to='/utils/deep-clone') Deep Clone
 </template>
 
 <script>
