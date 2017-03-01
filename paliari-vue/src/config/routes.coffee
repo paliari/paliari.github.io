@@ -61,6 +61,11 @@ module.exports = [
       component: V 'directives/DeepKey'
       meta: title: 'Deep Key'
     ,
+      name: 'translate'
+      path: 'translate'
+      component: V 'directives/Translate'
+      meta: title: 'Translate'
+    ,
       name: 't-model'
       path: 't-model'
       component: V 'directives/TModel'

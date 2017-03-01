@@ -34,6 +34,8 @@ div
             li
               router-link.pure-menu-link.ellipsis(to='/directives/deep-key') Deep Key
             li
+              router-link.pure-menu-link.ellipsis(to='/directives/translate') Translate
+            li
               router-link.pure-menu-link.ellipsis(to='/directives/t-model') T Model
             li
               router-link.pure-menu-link.ellipsis(to='/directives/text-bind') Text Bind

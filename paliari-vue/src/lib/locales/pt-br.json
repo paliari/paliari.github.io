@@ -1,4 +1,5 @@
 {
+  "hello": "Hello world",
   "activerecord": {
     "models": {
       "usuario": "Usuário"
