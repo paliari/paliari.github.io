@@ -35,6 +35,8 @@ div
               router-link.pure-menu-link.ellipsis(to='/directives/deep-key') Deep Key
             li
               router-link.pure-menu-link.ellipsis(to='/directives/t-model') T Model
+            li
+              router-link.pure-menu-link.ellipsis(to='/directives/text-bind') Text Bind
         li.pure-menu-item
           a.pure-menu-link(href='#filters') Filters
         li.pure-menu-item

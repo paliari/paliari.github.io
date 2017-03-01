@@ -65,5 +65,10 @@ module.exports = [
       path: 't-model'
       component: V 'directives/TModel'
       meta: title: 'T Model'
+    ,
+      name: 'text-bind'
+      path: 'text-bind'
+      component: V 'directives/TextBind'
+      meta: title: 'Text Bind'
     ]
 ]
