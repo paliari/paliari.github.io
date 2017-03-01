@@ -125,6 +125,31 @@ module.exports = [
       path: 'deep-clone'
       component: V 'utils/DeepClone'
       meta: title: 'Deep Clone'
+    ,
+      name: 'deep-key'
+      path: 'deep-key'
+      component: V 'utils/DeepKey'
+      meta: title: 'Deep Key'
+    ,
+      name: 'i18n'
+      path: 'i18n'
+      component: V 'utils/I18n'
+      meta: title: 'I18n'
+    ,
+      name: 'is-date'
+      path: 'is-date'
+      component: V 'utils/IsDate'
+      meta: title: 'Is Date'
+    ,
+      name: 'uc-first'
+      path: 'uc-first'
+      component: V 'utils/UcFirst'
+      meta: title: 'Uc First'
+    ,
+      name: 'masks'
+      path: 'masks'
+      component: V 'utils/Masks'
+      meta: title: 'Masks'
     ]
 
 ]

@@ -61,6 +61,16 @@ div
           ul.sublist
             li
               router-link.pure-menu-link.ellipsis(to='/utils/deep-clone') Deep Clone
+            li
+              router-link.pure-menu-link.ellipsis(to='/utils/deep-key') Deep Key
+            li
+              router-link.pure-menu-link.ellipsis(to='/utils/i18n') I18n
+            li
+              router-link.pure-menu-link.ellipsis(to='/utils/is-date') Is Date
+            li
+              router-link.pure-menu-link.ellipsis(to='/utils/uc-first') Uc First
+            li
+              router-link.pure-menu-link.ellipsis(to='/utils/masks') Masks
 </template>
 
 <script>
