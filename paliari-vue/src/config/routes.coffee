@@ -76,4 +76,44 @@ module.exports = [
       component: V 'directives/TextBind'
       meta: title: 'Text Bind'
     ]
+  ,
+    name: 'filters'
+    path: '/filters'
+    component: V 'filters/Home'
+    children: [
+      name: 'currency'
+      path: 'currency'
+      component: V 'filters/Currency'
+      meta: title: 'Currency'
+    ,
+      name: 'date'
+      path: 'date'
+      component: V 'filters/Date'
+      meta: title: 'Date'
+    ,
+      name: 'deep-key'
+      path: 'deep-key'
+      component: V 'filters/DeepKey'
+      meta: title: 'Deep Key'
+    ,
+      name: 'enums'
+      path: 'enums'
+      component: V 'filters/Enums'
+      meta: title: 'Enums'
+    ,
+      name: 'translate'
+      path: 'translate'
+      component: V 'filters/Translate'
+      meta: title: 'Translate'
+    ,
+      name: 't-model'
+      path: 't-model'
+      component: V 'filters/TModel'
+      meta: title: 'T Model'
+    ,
+      name: 'truncate'
+      path: 'truncate'
+      component: V 'filters/Truncate'
+      meta: title: 'Truncate'
+    ]
 ]

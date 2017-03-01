@@ -29,7 +29,7 @@ div
             li
               router-link.pure-menu-link.ellipsis(to='/components/modal') Modal
         li.pure-menu-item
-          a.pure-menu-link(href='#directives') Directives
+          router-link.pure-menu-link.ellipsis(to='/directives') Directives
           ul.sublist
             li
               router-link.pure-menu-link.ellipsis(to='/directives/deep-key') Deep Key
@@ -40,7 +40,22 @@ div
             li
               router-link.pure-menu-link.ellipsis(to='/directives/text-bind') Text Bind
         li.pure-menu-item
-          a.pure-menu-link(href='#filters') Filters
+          router-link.pure-menu-link.ellipsis(to='/filters') Filters
+          ul.sublist
+            li
+              router-link.pure-menu-link.ellipsis(to='/filters/currency') Currency
+            li
+              router-link.pure-menu-link.ellipsis(to='/filters/date') Date
+            li
+              router-link.pure-menu-link.ellipsis(to='/filters/deep-key') Deep Key
+            li
+              router-link.pure-menu-link.ellipsis(to='/filters/translate') Translate
+            li
+              router-link.pure-menu-link.ellipsis(to='/filters/enums') Enums
+            li
+              router-link.pure-menu-link.ellipsis(to='/filters/t-model') T Model
+            li
+              router-link.pure-menu-link.ellipsis(to='/filters/truncate') Truncate
         li.pure-menu-item
           a.pure-menu-link(href='#utils') Utils
 </template>
