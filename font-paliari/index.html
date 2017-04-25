@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>font-paliari glyphs preview</title>
+    <style type="text/css">
+      .letters {
+        display: none;
+      }
+      #readme {
+        padding: 20px;
+      }
+    </style>
+    <script src="jquery-3.1.0.min.js"></script>
+  </head>
+  <body>
+    <div id="readme">
+    </div>
+    <div id="fonts">
+    </div>
+    <script type="text/javascript">
+      $( "#readme" ).load( "readme_as_html.html" );
+      $( "#fonts" ).load( "https://bitbucket.org/paliari/font-paliari/raw/master/preview/font-paliari-preview.html" );
+    </script>
+  </body>
+</html>
